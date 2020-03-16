@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/googleMapFragment"
+        android:title="@string/navMenuItems_main" />
+
+    <item
+        android:id="@+id/actionsFragment"
+        android:title="@string/navMenuItems_actions" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/navMenuItems_settings" />
+
+    <item
+        android:id="@+id/statisticFragment"
+        android:title="@string/navMenuItems_statistic" />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/navMenuItems_about" />
+
+    <!--
+    <item
+        android:id="@+id/justTestFragment"
+        android:title="JustTestFrag" />
+      -->
+
+    <!--  -->
+    <!--
+    <item
+        android:id="@+id/statisticFragment"
+        android:title="SignalsFrag" />
+    -->
+</menu>

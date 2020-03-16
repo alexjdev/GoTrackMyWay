@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/googleMapFragment">
+
+    <fragment
+        android:id="@+id/googleMapFragment"
+        android:name="com.example.gotrackmyway.ui.main.GoogleMapFragment"
+        android:label="@string/googleMapFragment_title"
+        tools:layout="@layout/google_map_fragment" >
+        <argument
+            android:name="way_id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="com.example.gotrackmyway.ui.statistic.StatisticFragment"
+        android:label="@string/statisticFragment_title"
+        tools:layout="@layout/statistic_fragment" >
+        <!--
+        <action
+            android:id="@+id/action_statisticFragment_to_googleMapFragment"
+            app:destination="@id/googleMapFragment" />
+            -->
+        <action
+            android:id="@+id/actionGoogleMapFragment"
+            app:destination="@id/googleMapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.gotrackmyway.ui.settings.SettingsFragment"
+        android:label="@string/settingsFragment_title"
+        tools:layout="@layout/settings_fragment" />
+
+    <fragment
+        android:id="@+id/actionsFragment"
+        android:name="com.example.gotrackmyway.ui.actions.ActionsFragment"
+        android:label="@string/actionsFragment_title"
+        tools:layout="@layout/actions_fragment" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.gotrackmyway.ui.about.AboutFragment"
+        android:label="@string/aboutFragment_title" />
+</navigation>

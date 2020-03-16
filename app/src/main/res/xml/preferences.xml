@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_interval_title">
+        <ListPreference
+            android:key="INTERVAL"
+            android:title="Interval"
+            android:summary="%s"
+            android:defaultValue="120"
+            android:entries="@array/timeIntervalEntries"
+            android:entryValues="@array/timeIntervalValues"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_duplicate_title">
+        <SwitchPreference
+            android:key="IGNORE_DUPLICATES"
+            android:title="Ignore duplicates"
+            android:summary="Ignore duplicates of your location"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

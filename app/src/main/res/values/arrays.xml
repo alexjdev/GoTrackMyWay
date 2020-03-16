@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="timeIntervalEntries">
+        <item>10 SECONDS</item>
+        <item>15 SECONDS</item>
+        <item>30 SECONDS</item>
+        <item>1 MINUTE</item>
+        <item>2 MINUTES</item>
+        <item>3 MINUTES</item>
+        <item>5 MINUTES</item>
+        <item>10 MINUTES</item>
+        <item>15 MINUTES</item>
+        <item>20 MINUTES</item>
+        <item>30 MINUTES</item>
+        <item>1 HOUR</item>
+    </string-array>
+
+    <!-- TODO: replace string to long or int in next iteration -->
+    <string-array name="timeIntervalValues">
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+
+</resources>
